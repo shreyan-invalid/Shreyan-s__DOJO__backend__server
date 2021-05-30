@@ -7,7 +7,6 @@
     "serve": "node index",
     "start": "node index",
     "preinstall": "npx npm-force-resolutions",
-    "build": "grunt dist",
     "postinstall": "./node_modules/bower/bin/bower install && npm run build"
   },
   "author": "",
