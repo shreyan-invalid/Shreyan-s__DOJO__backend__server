@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "node index",
-    "start": "node index",
+    "start": "node server",
     "preinstall": "npx npm-force-resolutions"
   },
   "author": "",
