@@ -25,7 +25,7 @@ server.applyMiddleware({ app })
 app.use(express.static('public'))
 app.use(cors())
 
-const PORT= process.env.PORT || 5000
+const PORT= process.env.port || 5000
 
 
 mongoose.connect(MONGODB, { useNewUrlParser: true })
