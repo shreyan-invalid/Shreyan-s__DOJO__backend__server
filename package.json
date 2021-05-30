@@ -6,8 +6,7 @@
   "scripts": {
     "serve": "node index",
     "start": "node index",
-    "preinstall": "npx npm-force-resolutions",
-    "postinstall": "./node_modules/bower/bin/bower install && npm run build"
+    "preinstall": "npx npm-force-resolutions"
   },
   "author": "",
   "license": "ISC",
